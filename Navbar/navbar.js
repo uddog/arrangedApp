@@ -114,7 +114,7 @@ async function displayUserProfile(rowIndex, userPassword, navbar) {
             }
             
         } else {
-            navbar.innerHTML = '<ul><li><a href="../login.html">Login</a></li></ul>';
+            navbar.innerHTML = '<ul><li><a href="https://uddog.github.io/arrangedApp/login.html">Login</a></li></ul>';
             console.error('Invalid row index:', rowIndex);
         }
     } catch (error) {
